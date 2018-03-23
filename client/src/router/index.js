@@ -8,11 +8,13 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
+      // Home
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
     },
     {
+      // Register endpoint
       path: '/register',
       name: 'Register',
       component: Register
